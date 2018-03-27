@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E45C1925206A0BE600991AEF /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45C1924206A0BE600991AEF /* EarthNode.swift */; };
 		E469A6B0206A066600C4EDAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469A6AF206A066600C4EDAA /* AppDelegate.swift */; };
 		E469A6B2206A066600C4EDAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E469A6B1206A066600C4EDAA /* ViewController.swift */; };
 		E469A6B5206A066600C4EDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E469A6B3206A066600C4EDAA /* Main.storyboard */; };
 		E469A6B7206A066600C4EDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E469A6B6206A066600C4EDAA /* Assets.xcassets */; };
 		E469A6BA206A066600C4EDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E469A6B8206A066600C4EDAA /* LaunchScreen.storyboard */; };
+		E469A6C3206A0A1700C4EDAA /* StarsParticle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = E469A6C1206A0A1700C4EDAA /* StarsParticle.scnp */; };
+		E469A6C4206A0A1700C4EDAA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E469A6C2206A0A1700C4EDAA /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E45C1924206A0BE600991AEF /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
 		E469A6AC206A066600C4EDAA /* 3DEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E469A6AF206A066600C4EDAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E469A6B1206A066600C4EDAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		E469A6B6206A066600C4EDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E469A6B9206A066600C4EDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E469A6BB206A066600C4EDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E469A6C1206A0A1700C4EDAA /* StarsParticle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarsParticle.scnp; sourceTree = "<group>"; };
+		E469A6C2206A0A1700C4EDAA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				E469A6AF206A066600C4EDAA /* AppDelegate.swift */,
 				E469A6B1206A066600C4EDAA /* ViewController.swift */,
+				E45C1924206A0BE600991AEF /* EarthNode.swift */,
+				E469A6C1206A0A1700C4EDAA /* StarsParticle.scnp */,
+				E469A6C2206A0A1700C4EDAA /* star.png */,
 				E469A6B3206A066600C4EDAA /* Main.storyboard */,
 				E469A6B6206A066600C4EDAA /* Assets.xcassets */,
 				E469A6B8206A066600C4EDAA /* LaunchScreen.storyboard */,
@@ -124,7 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E469A6BA206A066600C4EDAA /* LaunchScreen.storyboard in Resources */,
+				E469A6C4206A0A1700C4EDAA /* star.png in Resources */,
 				E469A6B7206A066600C4EDAA /* Assets.xcassets in Resources */,
+				E469A6C3206A0A1700C4EDAA /* StarsParticle.scnp in Resources */,
 				E469A6B5206A066600C4EDAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E469A6B2206A066600C4EDAA /* ViewController.swift in Sources */,
+				E45C1925206A0BE600991AEF /* EarthNode.swift in Sources */,
 				E469A6B0206A066600C4EDAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
